@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(to right, #99c2ff 10%, #66b3ff 50%, #99c2ff 90%);
-    animation: wave-animation 3s infinite linear;
+    background: linear-gradient(to right, #9ec2f8 10%, #66b3ff 50%, #99c2ff 90%);
+    animation: wave-animation 4s infinite linear;
     background-size: 200% 100%;
     font-family: 'Caladea', serif;
     font-size: larger;
@@ -12,8 +12,8 @@ nav {
     justify-content: center;
 }
 
-form{
-    width:100%
+form {
+    width: 100%
 }
 
 #heading {
@@ -29,11 +29,11 @@ form{
     padding-right: 0%;
 }
 
-#birthdate{
+#birthdate {
     margin-left: 1%;
 }
 
-#span1{
+#span1 {
     display: flex;
     justify-content: center;
     margin: 3%;
@@ -44,22 +44,42 @@ form{
     justify-content: center;
 }
 
-#resetBtn{
+#resetBtn {
     margin-left: 2%;
     padding: 0% 3% 0% 3%;
 }
 
-#resultDiv{
+#resultDiv {
     display: flex;
     justify-content: center;
     margin: 2%;
 }
 
+#finalResult {
+    margin-left: 37%;
+}
+
+#bdayGif {
+    margin-left: 17%;
+}
+
+#cakes {
+    margin-top: 5%;
+    margin-left: 33%;
+}
+
+.cake {
+    display: inline-block;
+}
+
+
+
 @keyframes wave-animation {
     0% {
-      background-position: 0 0;
+        background-position: 0 0;
     }
+
     100% {
-      background-position: 200% 0;
+        background-position: 200% 0;
     }
-  }
+}
