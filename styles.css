@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to right, #99c2ff 10%, #66b3ff 50%, #99c2ff 90%);
+    animation: wave-animation 3s infinite linear;
+    background-size: 200% 100%;
+    font-family: 'Caladea', serif;
+    font-size: larger;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width:100%
+}
+
+#heading {
+    color: #363062;
+}
+
+#mainSec {
+    display: flex;
+    justify-content: center;
+}
+
+#label1 {
+    padding-right: 0%;
+}
+
+#birthdate{
+    margin-left: 1%;
+}
+
+#span1{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+#span2 {
+    display: flex;
+    justify-content: center;
+}
+
+#resetBtn{
+    margin-left: 2%;
+    padding: 0% 3% 0% 3%;
+}
+
+#resultDiv{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+@keyframes wave-animation {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
